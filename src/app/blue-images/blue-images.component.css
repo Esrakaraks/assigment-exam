@@ -1,0 +1,52 @@
+
+  .lesText{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-top: 80px;
+    color: rgb(65, 60, 60);
+  }
+  .view {
+    float: left;
+    padding: 5px; 
+   
+  }
+  .white-text{
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+  }
+  .img-fluid{
+    width:100%;
+  }
+  #btn-id{
+   
+      border-radius: 35px;
+     background-color: white !important;
+      border: 1px solid black !important;
+      white-space: nowrap;
+      font-weight: bold;
+      color: black;
+    
+    
+  }
+ #white-text{
+  margin-top: 35px;
+
+ }
+ hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:red;
+  height: 3px;
+  margin-top: 50px;
+}
+  

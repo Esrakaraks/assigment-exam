@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="lesText">ACTUALITES</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="view" *ngFor="let item of blueimageList">
+
+        <img src="{{item.imageUrl}}" class="img-fluid">
+
+        <div class="mask flex-center ">
+          <button type="button" class="btn btn-outline btn-sm my-0 " id="btn-id">{{item.buttonText}}</button>
+
+        </div>
+        <div class="mask flex-center" id="white-text">
+            <p class="white-text">{{item.text}}</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <div class="view">
+
+        <img class="col-3" src="../../assets/image/actu4.jpg"
+          class="img-fluid">
+          <div class="mask flex-center ">
+            <button type="button" class="btn btn-outline btn-sm my-0 " id="btn-id">NOUVEOU</button>
+  
+          </div>
+        <div class="mask flex-center"  id="white-text">
+          <p class="white-text">Site İnternet</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="view">
+
+      <img class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8" src="../../assets/image/actu5.jpg" class="img-fluid">
+      <div class="mask flex-center ">
+        <button type="button" class="btn btn-outline btn-sm my-0 " id="btn-id">NOUVEOU</button>
+
+      </div>
+      <div class="mask flex-center"  id="white-text">
+        <p class="white-text" >Formation 2017/2018</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>

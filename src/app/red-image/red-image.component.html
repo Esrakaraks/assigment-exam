@@ -1,0 +1,25 @@
+
+<div class="container-fluid">
+<hr>
+<div class="row">
+  <h1 class="lesText"> LES SECTEURS</h1>
+
+</div>
+
+  <div class="row">
+    
+ <div class="card card-image" *ngFor="let item of redImageList" style="background-image: url({{item.imageUrl}});">
+        <div class="text-white py-5 px-4">
+        <div>
+          <h3 class="card-title pt-2">{{item.imageText}}</h3>
+        </div>
+      
+
+    </div>
+
+
+  </div>
+
+</div>
+</div>
+

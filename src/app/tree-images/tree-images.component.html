@@ -1,0 +1,19 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-xl-4 col-lg-4 col-md-4 card-image" *ngFor="let item of imageData" style="background-image: url({{item.imageUrl}});">
+        <div class="text-white py-5 px-4">
+        <div>
+          <div class="col-4">
+            <button type="button" class="btn btn-outline-white btn-sm my-0 ">{{item.btnText}}</button>
+          </div>
+          <h3 class="card-title pt-2">{{item.text}}</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</div>

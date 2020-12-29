@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.formText{
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 80px;
+  color: rgb(65, 60, 60);
+}
+.icon-classFacebook{
+    display: none;
+   
+}
+.icon-classTwitter{
+    display: none;
+}
+.formTextDetail{
+ font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+.form-control{
+    width: 50% !important;
+    display: block;
+        margin-left: auto;
+}
+.btn{
+ border-radius: 35px;
+  font-size: 15px;
+  height: 40px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  display: block;
+  margin-right: auto;
+  text-align: center;
+  width: auto;
+ 
+}
+.row{
+    margin-top: 20px;
+}
+@media screen and  (max-device-width: 767px){
+    .form-control{
+        width: 100% !important;
+        display: block;
+            margin-left: auto;
+    }
+ 
+    .icon-classFacebook{
+        display: block;
+        margin-left: auto;
+       
+    }
+    .icon-classTwitter{
+        display: block;
+        margin-right: auto;
+    }    
+      
+
+}

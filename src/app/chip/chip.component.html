@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+      <mat-form-field class=" chip-list">
+        <mat-chip-list >
+          <mat-chip  class="chip" *ngFor="let item of chips" [selectable]="selectable"
+                    (removed)="remove(fruit)">
+            {{item.name}}
+            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+          </mat-chip>
+        
+        </mat-chip-list> 
+        
+      </mat-form-field>
+
+
+    </div>
+  </div>

@@ -1,0 +1,63 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-outline" id="header-button">Voir tous les secteus</button>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="jumbotron  card-image" style="background-image: url(../../assets/image/testimonial.jpg);">
+                <div class="text-white text-center py-5 px-4">
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h1 class="text">TEMOIGNAGES</h1>
+                                </div>
+                                  <div class="col-12">
+
+                                    <div class="card">
+                                        <div class="card-up info-color"></div>
+                                        <div class="avatar white">
+                                            <img src="{{this.tempAvatar}}" class="rounded-circle img-fluid">
+                                        </div>
+
+                                        <div class="card-body">
+
+
+                                            <h4 class="font-weight-bold ">John Doe</h4>
+                                            <div class="div-previous">
+                                                <a class="previous round" (click)="nextClick(this.tempAvatar)">
+                                                    <img src="../../assets/image/back.svg">
+                                                </a>
+                                            </div>
+                                            <div class="div-next">
+                                                <a class="next round" (click)="nextClick(this.tempAvatar)">
+                                                    <img src="../../assets/image/next.svg">
+                                                </a>
+                                            </div>
+                                            <button type="button" class="btn btn-outline-white btn-sm my-0 "
+                                                id="bac-pro">BAC
+                                                PRO</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-outline" id="header-button2">Voir tous les
+                                        secteus</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="container-fluid" >
+    <div class="row">
+        <div class=" col-sm-xs col-sm-12 col-md-12 col-lg-4 columnStyleText "   >
+            <h3 class="select-text">
+               TROUVER MA FORMATION
+            </h3>
+
+        </div>
+        <div class="col-sm-xs col-sm-12 col-md-12 col-lg-4 ">
+            <mat-form-field class="filtre" appearance="outline" >
+                <mat-label>CHOIX MULTIPLES</mat-label>
+                <mat-select multiple>
+                  <mat-option *ngFor="let item of multip" [value]="item.value">
+                    {{item.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+        </div>
+        <div class=" col-sm-xs col-sm-12 col-md-12 col-lg-4 "  >
+            <mat-form-field class="filtre" appearance="outline" >
+              <mat-label>CHOIX MULTIPLES</mat-label>
+                <mat-select panelClass="dropDown-seasons-panel" multiple>
+                  <mat-option *ngFor="let item of multip" [value]="item.value">
+                    {{item.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+
+        </div>
+    </div>
+</div>

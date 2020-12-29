@@ -1,0 +1,592 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+.intro-2 {
+    background: url("../../assets/image/banner.jpg")no-repeat center center;
+    background-size: cover;
+    
+}
+html,
+body,
+header,
+.view {
+    height: 100%;  
+} 
+
+
+@media screen and (min-width:1240px){
+  
+  .navbar {
+    background-color: rgba(255,255,255,0.5) !important;
+    border-radius: 35px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 75%;
+    height: 50px;
+  
+  }
+  .nav-link {
+   
+      color: white !important;
+      font-weight: bold;
+   }
+   .navbar-brand {
+    color: white !important;
+    font-size: 2.05rem !important;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+}
+
+.scrolled  {
+  width: 100%;
+  height: 55px;
+  background: white !important;
+   border-radius: 0px; 
+   margin: 0px;
+}
+
+
+.scrolled .nav-link {
+  color: #808080 !important;
+ 
+}
+
+
+
+.scrolled .navbar-brand {
+  color: #808080 !important;
+}  
+
+
+.navbar-nav>li {
+  margin-left: 15px;
+ white-space: nowrap;
+}
+#navbar-button {
+  border-radius: 35px;
+  
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+#navbarHeader-button{
+  display: none;
+  border-radius: 35px;
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+
+.fas {
+  color: whitesmoke;
+  font-size: 1.4em;
+  margin-left: 124px;
+}
+
+#header-button{
+  border-radius: 35px;
+  font-size: 16px;
+  height: 50px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+.touver-text{
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  top: 20px;
+}
+
+
+.header-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 168px;
+  font-weight: bold;
+  line-height: 45px;
+  font-family: 'Rubik', sans-serif;
+ 
+}
+.header-textDetail{
+  font-size: 1.5rem;
+  line-height: 45px;
+
+}
+}
+
+ @media screen and  (min-device-width: 992px) and  (max-width:1239px)  {
+  .navbar {
+    background-color: rgba(255,255,255,0.5) !important;
+    border-radius: 35px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 85%;
+    height: 50px;
+  
+  }
+  .nav-link {
+     color: white !important;
+      font-weight: bold;
+   }
+   .navbar-brand {
+    color: white !important;
+    font-size: 2.05rem !important;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+}
+
+.scrolled  {
+  width: 100%;
+  height: 55px;
+  background: white !important;
+   border-radius: 0px; 
+   margin: 0px;
+}
+
+
+.scrolled .nav-link {
+  color: #808080 !important;
+ 
+}
+
+.scrolled .navbar-brand {
+  color: #808080 !important;
+}  
+
+.navbar-nav>li {
+  
+ white-space: nowrap;
+}
+.navbar-nav {
+  
+  margin-top: 5px;
+}
+#navbar-button {
+  border-radius: 35px;
+  
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+#navbarHeader-button{
+  display: none;
+  border-radius: 35px;
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+
+.fas {
+  color: whitesmoke;
+  font-size: 1.3em;
+
+
+}
+
+#header-button{
+  border-radius: 35px;
+  font-size: 16px;
+  height: 50px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+.touver-text{
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  top: 20px;
+}
+
+
+.header-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 168px;
+  font-weight: bold;
+  line-height: 45px;
+ 
+}
+.header-textDetail{
+  font-size: 1.5rem;
+  line-height: 45px;
+
+}
+} 
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+  .scrolled  {
+    width: 100%;
+    height: 55px;
+    background: white !important;
+     border-radius: 0px; 
+     margin: 0px;
+  }
+  
+  
+  .scrolled .nav-link {
+    color: #808080 !important;
+   
+  }
+  
+  
+  
+  .scrolled .navbar-brand {
+    color: #808080 !important;
+  } 
+
+  #navbar-toggler{
+    position: fixed;
+  }
+  .navbar {
+    background-color: rgba(255,255,255,0.5) !important;
+    top: 50px;
+   border-radius: 0px; 
+   margin: 0px;
+    width: 100%;
+  height: 55px;
+  }
+  .nav-link {
+    color: #808080 !important;
+      font-weight: bold;
+   }
+   .navbar-brand {
+    color: white !important;
+    font-size: 2.05rem !important;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+}
+
+.navbar-nav>li {
+  color: #FFFFFF !important;
+ white-space: nowrap;
+}
+.navbar-nav {
+ 
+  margin-top: 5px;
+}
+#navbar-button {
+  display: none;
+  border-radius: 35px;
+   height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+#navbarHeader-button{
+  border-radius: 35px;
+  font-size: 16px;
+  color: red;
+  margin-top: 20px;
+  height: 50px;
+  background-color: white !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+
+.fas {
+  color: whitesmoke;
+  font-size: 1.8em;
+  position: absolute;
+  margin-left: 672px;
+
+}
+
+#header-button{
+  border-radius: 35px;
+  font-size: 16px;
+  height: 50px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+.touver-text{
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  top: 20px;
+}
+
+
+.header-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 168px;
+  font-weight: bold;
+  line-height: 45px;
+ 
+}
+.header-textDetail{
+  font-size: 1.5rem;
+  line-height: 45px;
+
+}
+  
+
+}
+
+@media screen and (min-device-width: 482px) and (max-device-width: 767px){
+  .scrolled  {
+    width: 100%;
+    height: 55px;
+    background: white !important;
+     border-radius: 0px; 
+     margin: 0px;
+  }
+  
+  
+  .scrolled .nav-link {
+    color: #808080 !important;
+   
+  }
+  
+  
+  
+  .scrolled .navbar-brand {
+    color: #808080 !important;
+  } 
+  #navbar-toggler{
+    position: fixed;
+  }
+  .navbar {
+   
+    background-color: rgba(255,255,255,0.5) !important;
+    top: 50px;
+   border-radius: 0px; 
+   margin: 0px;
+    width: 100%;
+  height: 55px;
+  }
+  .nav-link {
+    color: #808080 !important;
+      font-weight: bold;
+   }
+   .navbar-brand {
+    color: white !important;
+    font-size: 2.05rem !important;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+}
+
+.navbar-nav>li {
+  color: #FFFFFF !important;
+ white-space: nowrap;
+}
+.navbar-nav {
+ 
+  margin-top: 5px;
+}
+#navbar-button {
+  border-radius: 35px;
+  display: none;
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+#navbarHeader-button{
+  border-radius: 35px;
+  font-size: 16px;
+  color: red;
+  margin-top: 20px;
+  height: 50px;
+  background-color: white !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+
+.fas {
+  color: whitesmoke;
+  font-size: 1.5em;
+  position: absolute;
+    margin-left: 450px;
+}
+
+#header-button{
+  border-radius: 35px;
+  font-size: 16px;
+  height: 50px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.touver-text{
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  top: 20px;
+}
+
+
+.header-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 168px;
+  font-weight: bold;
+  line-height: 45px;
+ 
+}
+.header-textDetail{
+  font-size: 1.5rem;
+  line-height: 45px;
+
+}
+  
+
+}
+@media screen and (max-device-width: 481px) { 
+  .scrolled  {
+    width: 100%;
+    height: 55px;
+    background: white !important;
+     border-radius: 0px; 
+     margin: 0px;
+  }
+  
+  
+  .scrolled .nav-link {
+    color: #808080 !important;
+   
+  }
+  
+  
+  
+  .scrolled .navbar-brand {
+    color: #808080 !important;
+  } 
+  #navbar-toggler{
+    position: fixed;
+  }
+  .navbar {
+    background-color: rgba(255,255,255,0.5) !important;
+    top: 30px;
+   border-radius: 0px; 
+   margin: 0px;
+    width: 100%;
+  height: 55px;
+  }
+  .nav-link {
+    color: #808080 !important;
+      font-weight: bold;
+   }
+   .navbar-brand {
+    color: white !important;
+    font-size: 2.05rem !important;
+     font-weight: bold;
+     font-family: 'Rubik', sans-serif;
+}
+
+.navbar-nav>li {
+  color: #FFFFFF !important;
+ white-space: nowrap;
+}
+.navbar-nav {
+ 
+  margin-top: 5px;
+}
+#navbar-button {
+  border-radius: 35px;
+  display: none;
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ }
+ #navbarHeader-button{
+
+  border-radius: 35px;
+  height: 35px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+
+.fas {
+  color: whitesmoke;
+  font-size: 1.5em;
+  position: absolute;
+  margin-left: 230px;
+ 
+}
+#navbarHeader-button{
+  border-radius: 35px;
+  font-size: 16px;
+  color: red;
+ 
+  height: 50px;
+  background-color: white !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+#header-button{
+  border-radius: 35px;
+  font-size: 16px;
+  height: 50px;
+  background-color: red !important;
+  border: 2px solid red !important;
+  white-space: nowrap;
+  font-weight: bold;
+ 
+}
+.touver-text{
+  color: red;
+  white-space: nowrap;
+  font-weight: bold;
+  top: 20px;
+}
+
+
+.header-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 168px;
+  font-weight: bold;
+  line-height: 45px;
+ 
+}
+.header-textDetail{
+  font-size: 1.5rem;
+  line-height: 45px;
+
+}
+  
+
+}
+
+

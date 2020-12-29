@@ -1,0 +1,41 @@
+.card-image{
+    background: no-repeat;  
+    flex: 0 0 auto !important;
+    transition: transform 0.3s ease;
+    transform: translateY(0px);
+  
+   }
+  .card-image:hover{
+    transform: translateY(10px);
+  }
+  .card-title{
+    font-size: 12px;
+  }
+  .text-white{
+    margin-top: 80px;
+  }
+  .btn{
+    border-radius: 35px;
+   background-color: red !important;
+    border: 2px solid red !important;
+    white-space: nowrap;
+    font-weight: bold;
+    margin: auto;
+  
+  }
+  
+  
+  @media screen and (max-device-width: 952px) { 
+    .card-image{
+      margin-left: 74px;
+     }
+     .row {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+       overflow-x: auto !important;
+      overflow-y: hidden !important; 
+    
+    }
+  
+  }
+ 

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+  .navbar {
+   margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+    margin-top: 2px;
+    width: 100%; 
+  }
+  .nav-link {
+    font-family: 'Ramabhadra', sans-serif;
+     font-size: 1.05rem !important;
+   }
+ .navbar-brand {
+    color: red !important;
+    font-size: 2.05rem !important;
+   font-family: 'Rubik', sans-serif;
+}
+#navbarSupportedContent{
+    margin: auto;
+}
+
+.navbar-collapse.collapse {
+  display: block;
+  
+  }
+  
+  .navbar-nav>li, .navbar-nav {
+  float: left ;
+  }
+  .nav-item{
+    margin-left: 20px;
+  }
+  
+  
+ 
+  
+

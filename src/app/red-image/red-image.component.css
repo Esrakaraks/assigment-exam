@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+.lesText{
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+} 
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:rgb(172, 171, 171);
+    height: 1px;
+    margin-top: 50px;
+  }
+ 
+  .card-image{
+    background: no-repeat;  
+    flex: 0 0 auto;
+    margin-left: 5px;
+    position: relative;
+  
+   
+  
+  }
+ 
+  .card-image::before{
+    background-color: rgba(231, 27, 27, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .card-title{
+    font-size: 18px;
+  }
+  .text-white{
+    margin-top: 80px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    width: 50%;
+    margin-right: 73px;  
+  }
+
+  .row {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    overflow-y: hidden;
+   
+  }
+  @media screen and (max-device-width: 468px){
+    .row {
+      display: flex;
+      flex-wrap: nowrap;
+       overflow-x: auto; 
+      overflow-y: hidden;
+    }
+}
+  
